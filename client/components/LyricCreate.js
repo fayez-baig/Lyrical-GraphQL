@@ -17,7 +17,7 @@ const LyricCreate = ({ songId, history }) => {
         songId,
         content,
       },
-      refetchQueries: [{ query: GET_SONG, variables: { id } }],
+      // refetchQueries: [{ query: GET_SONG, variables: { id } }],
     }).then(() => setContent(""));
     // .then(() => history.push("/"));
   };
