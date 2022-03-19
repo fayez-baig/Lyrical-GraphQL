@@ -1,14 +1,21 @@
 .collection-item {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .material-icons {
-    cursor: pointer;
-    margin-left: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .vote-box {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
+}
+
+.btn-floating i {
+  width: fit-content;
 }
